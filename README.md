@@ -1,2 +1,2 @@
 # o2o
-this is a java project
+This is the course project of Java class
