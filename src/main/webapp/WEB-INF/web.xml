@@ -4,8 +4,8 @@
 	version="3.1" metadata-complete="true">
   <display-name>Archetype Created Web Application</display-name>
   <welcome-file-list>
-  	<welcome-file>index.jsp</welcome-file>
-  	<welcome-file>index.html</welcome-file>
+  	<welcome-file>index.jsp</welcome-file>		<!-- 首先访问第一个文件 -->
+  	<welcome-file>index.html</welcome-file>		<!-- 第一个不存在再访问第二个，都不存在会显示404 -->
   </welcome-file-list>
   <servlet>
   	<servlet-name>spring-dispatcher</servlet-name>
